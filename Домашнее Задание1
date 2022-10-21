@@ -1,0 +1,16 @@
+Console.WriteLine("Введите значение a");
+string s = Console.ReadLine();
+int a = Convert.ToInt32(s);
+Console.WriteLine("Введите значение b");
+string s2 =  Console.ReadLine();
+int b = Convert.ToInt32(s2);
+var summa = a + b;
+Console.WriteLine(summa);
+if (summa % 2 == 0)
+{
+    Console.WriteLine("Красное");
+}
+else if (summa % 2 == 1)
+{
+    Console.WriteLine("Черное");
+}
